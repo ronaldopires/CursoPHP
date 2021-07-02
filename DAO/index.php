@@ -14,16 +14,16 @@ $user = new Usuario();
 //$lista = $user->getLista();
 //$user->login("Ronaldo", "123"); //busca pelo nome 
 //echo $user;
-//$aluno = new Usuario("Lica", "12315");
-//$aluno->setUserLogin("aluno");
-//$aluno->setSenha("@lun0");
-//$aluno->insert();
-//echo $aluno;
-$usuario = new Usuario();
+$aluno = new Usuario("Lica", "12315");
+$aluno->setUserLogin("aluno");
+$aluno->setSenha("@lun0");
+$aluno->insert();
+echo $aluno;
+//$usuario = new Usuario();
 //$usuario->loadById(10);
 //$usuario->update("professor", "123");
 
-$usuario->delete(11);
+//$usuario->delete(11);
 
 /*
 $sql = new Sql();
