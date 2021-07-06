@@ -1,0 +1,20 @@
+{
+    "name": "ronaldopires/composer",
+    "description": "Curso de PHP 7",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ronaldopires\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ronaldo Carvalho",
+            "email": "ronaldo.carvalho@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
