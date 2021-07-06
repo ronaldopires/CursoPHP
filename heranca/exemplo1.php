@@ -13,7 +13,7 @@ class Documento
         $this->numero = $numero;
     }
 }
-
+//A classe CPF herda de Documento 
 class CPF extends Documento
 {
     public function validar()
